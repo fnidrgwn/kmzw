@@ -1,0 +1,21 @@
+var currentDate = new Date();
+var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+var formattedDate = currentDate.toLocaleDateString('id-ID', options);
+
+document.querySelector('#hrdate').innerText = formattedDate
+document.querySelector('#hrbrsa').innerText = "Rp.16.000 /Kg"
+document.querySelector('#hrbrsb').innerText = "Rp.15.000 /Kg"
+document.querySelector('#hrkedl').innerText = "Rp.16.000 /Kg"
+document.querySelector('#hrbwgm').innerText = "Rp.22.000 /Kg"
+document.querySelector('#hrbwgp').innerText = "Rp.32.000 /Kg"
+document.querySelector('#hrcbik').innerText = "Rp.60.000 /Kg"
+document.querySelector('#hrcbir').innerText = "Rp.55.000 /Kg"
+document.querySelector('#hrdgsp').innerText = "Rp.150.000 /Kg"
+document.querySelector('#hrdgay').innerText = "Rp.35.000 /Kg"
+document.querySelector('#hrtlur').innerText = "Rp.31.000 /Kg"
+document.querySelector('#hrgula').innerText = "Rp.17.000 /Kg"
+document.querySelector('#hrminy').innerText = "Rp.15.000 /Kg"
+document.querySelector('#hrterg').innerText = "Rp.9.000 /Kg"
+document.querySelector('#hrkemb').innerText = "Rp.25.000 /Kg"
+document.querySelector('#hrtong').innerText = "Rp.25.000 /Kg"
+document.querySelector('#hrband').innerText = "Rp.40.000 /Kg"
